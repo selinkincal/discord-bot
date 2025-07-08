@@ -20,7 +20,7 @@ pip install discord.py   # discord.py kütüphanesini yükle
 # Eğer uv yüklüyse:
 uv pip install discord.py
 
-3. ** 🚀 Botu Çalıştırmak**
+## 🚀 Botu Çalıştırmak
 
 `bot.py` dosyasında aşağıdaki satıra kendi bot tokenini yaz:
 
