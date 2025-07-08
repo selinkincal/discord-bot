@@ -1,7 +1,5 @@
 # discord-bot
  Python Discord Bot
- 
-# SelinEchoBot 🎙️
 
 Basit bir Discord botu. Kullanıcı ne yazarsa aynısını cevap olarak döner. 
 Python ile yazılmıştır ve `discord.py` kütüphanesini kullanır.
