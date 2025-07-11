@@ -1,4 +1,6 @@
 import discord
+import os
+
 intents = discord.Intents.default()
 intents.message_content = True  # Mesaj içeriğini okuyabilmek için
 
@@ -18,5 +20,6 @@ async def on_message(message):
     await message.channel.send(message.content)  
 
 
-client.run ("KENDİ TOKENİNİZİ BURAYA YAPIŞTIRIN")
+client.run(os.getenv ("DISCORD_TOKEN"))
+
 
